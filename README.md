@@ -1,6 +1,21 @@
-# TestComponent
+# ShowIfFieldValue
 
 Disclaimer: This component was built by the community at large and is not an official Coveo JSUI Component. Use this component at your own risk.
+
+Purpose: 
+
+In a Result Template, show or hide markup if a specified field and value matches the component's options.
+
+Options:
+
+- field: field you want to display on the result template
+- fieldValue: the value to match for the content of the element to be displayed
+
+```html
+<div class="CoveoShowIfFieldValue" data-field="@filetype" data-field-value="lithiummessage">
+    show this message if result's @filetype field value is "lithiummessage"
+</div>
+```
 
 ## Getting Started
 
